@@ -83,6 +83,7 @@ a:hover {
     text-decoration: underline;
 }
 
-table tr td {
+.text {
     text-align: center;
+    font-size: 18px;
 }
