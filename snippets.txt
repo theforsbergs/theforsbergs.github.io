@@ -1,0 +1,29 @@
+.nav {
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    overflow: hidden;
+    opacity: 0.8;
+    background-color: rgb(76, 81, 83);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
