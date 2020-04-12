@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background:  whitesmoke;
+}
+
+
+/*https://images.unsplash.com/photo-1486728297118-82a07bc48a28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80*/
+
+#menu {
+    display: none;
+    z-index: 2;
+}
+
+.navs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(185, 185, 185);
+    padding: 20px;
+    width: 20%;
+    height: 100%;
+}
+
+
+.navs li button {
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    border: none;
+}
+
+.navs li button:hover {
+    background-color: rgb(226, 226, 226)
+}
+
+.navs li button a {
+    font-size: 30px;
+}
+
+.left {
+    float: left;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.middle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.right {
+    float: right;
+    padding: 0;
+    top: 0;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table tr td {
+    text-align: center;
+}
+
+table tr th {
+    border: solid 3px black;
+    padding: 25px;
+    font-size: 20px;
+    background-color: rgb(195, 196, 197);
+}
